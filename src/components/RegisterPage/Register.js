@@ -35,7 +35,7 @@ const Register = () => {
 
                 <div className='registerTitle'>
                     <div className='text'>
-                        <h1>Sign Up</h1>
+                        <h2>Sign Up</h2>
                         <p>It's quick and easy.</p>
                     </div>
                     <Link to='/login' className='backLink'>X</Link>
@@ -44,7 +44,7 @@ const Register = () => {
                 <div className='line'></div>
                 <label>Username: </label>
                 <ErrorMessage name='username' component='span'/>
-                <Field className='input' id='username'  name='username' placeholder='Admin'/>
+                <Field className='input' id='username'  name='username' placeholder='admin'/>
                 <label>Password: </label>
                 <ErrorMessage name='password' component='span'/>
                 <Field className='input' id='password' type='password' name='password' placeholder='*********'/>
