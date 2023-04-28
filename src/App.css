@@ -43,14 +43,14 @@
 
 @media screen and (min-width: 700px) {
     .registerPage {
-      width: 80%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .loginPage {
-      width: 80%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
