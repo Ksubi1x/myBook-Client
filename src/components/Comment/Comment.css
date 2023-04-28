@@ -1,0 +1,48 @@
+
+.comment {
+    align-self: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+    border-radius: 10px;
+}
+
+
+
+.userComment {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.creator {
+    font-size: 12px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.edit button {
+    width: 15px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+
+.edit button:hover {
+    color: gray;
+}

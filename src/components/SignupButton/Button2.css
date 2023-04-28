@@ -1,0 +1,15 @@
+.registerButton {
+    height: 60px;    
+    background-color: #42b72a;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+.registerButton:hover {
+    filter: brightness(90%);
+}

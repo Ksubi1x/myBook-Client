@@ -1,0 +1,82 @@
+.header {
+    
+    background: linear-gradient(to right, #B0B5B9 0%, #A8ABAE 100%); 
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    visibility: visible;
+}
+
+.brandTitle {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.linksH {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    list-style: none;
+    
+}
+
+.linkH {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 3px 0px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
+.linkH::before,
+.linkH::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.linkH::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.linkH::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+
+
+
+.linkH:hover::before,
+.linkH:hover::after {
+    transform: scaleX(1)
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .menuH {
+        display: none;
+    }
+
+}
+

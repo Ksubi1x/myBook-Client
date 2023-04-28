@@ -1,0 +1,75 @@
+
+
+.postArea {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px;
+    overflow: scroll;
+    height: 75vh;
+    z-index: 0;
+}
+
+.createButton {
+    width: 30%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.createButton:hover {
+    background-color: rgb(250, 246, 246);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.redirect {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+    .homePage {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .postArea {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .homePage {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .postArea {
+        width: 70%;
+        
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .postArea {
+        width: 60%;
+        
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .postArea {
+        width: 50%;
+        
+    }
+}

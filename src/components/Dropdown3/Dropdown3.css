@@ -1,0 +1,12 @@
+.dropdown3 {
+    width: 100%;
+    
+    background-color: rgb(255,255,255);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 15px;   
+    border: 1px solid;
+    border-color: lightgray; 
+    font-weight: 400;
+    padding-right: 70px;
+}

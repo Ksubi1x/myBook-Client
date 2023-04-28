@@ -1,0 +1,120 @@
+.back  {
+    width: 25%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: 0.3s;
+    gap: 5px;
+}
+
+.homeLink {
+    color: white;
+    text-decoration: none;
+}
+
+.back:hover {
+    filter: brightness(50%);
+}
+
+.back img {
+    width: 25%;
+    height: 35px;
+    margin: 15px 0px;
+}
+.createPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    gap: 10px;
+}
+
+.createPost h3 {
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input1  {
+    border: none;
+    background-color: rgb(229 231 235);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.input2  {
+    border: none;
+    background-color: rgb(229 231 235);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 0px 10px;
+    font-size: 14px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    
+    
+}
+
+.submit {
+    width: 40%;
+    margin: 15px 0px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    cursor: pointer;
+    align-self: center;
+    transition: 0.3s;
+}
+
+span {
+    color: red;
+}
+
+@media screen and (min-width: 700px) {
+    .makeContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .makeContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .makeContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .makeContainer {
+        width: 40%;
+    }
+}
+
