@@ -25,6 +25,7 @@ const Register = () => {
             console.log(response)
             console.log(data)
         })
+        alert('Account created, Please log in now.')
        
     }
 
